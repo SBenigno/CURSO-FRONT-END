@@ -18,6 +18,7 @@ Arquivo B / VErsão 1 / Versão 2
 ##Criar conta do Git
 
 ##Clonar projeto
+git clone https://github.com/SBenigno/CURSO-FRONT-END.git
 
 ##Commits
 Informação de alteração
