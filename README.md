@@ -25,5 +25,3 @@ Informação de alteração
 
 ##GitFlow
 Fluxo do Git
-
--*Linguagem Markdown
