@@ -26,3 +26,4 @@ Informação de alteração
 
 ##GitFlow
 Fluxo do Git
+
