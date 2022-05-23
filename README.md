@@ -1,29 +1,31 @@
 # FRONT-END
 
-#Git 
-##Versionamento
+# Git 
+## Versionamento
 -Historico
--Controle 
--Quem alterou
--O que alterou
--Quando alterou
--Todos os arquivos
--Evolução continua
+- Controle
+- Quem alterou
+- O que alterou
+- Quando alterou
+- Todos os arquivos
+- Evolução continua
 
 Arquivo A / Versão 1 / Versão 2
 Arquivo B / VErsão 1 / Versão 2
 
-##Instalação do Git
+## Instalação do Git
 
-##Criar conta do Git
+## Criar conta do Git
 
-##Clonar projeto
+## Clonar projeto
 git clone https://github.com/SBenigno/CURSO-FRONT-END.git
 
-##Commits
+## Commits
 Informação de alteração
 - apos testado todo seu codigo
+- git add
+- git commit -m "mensagem"
 
-##GitFlow
+## GitFlow
 Fluxo do Git
 
