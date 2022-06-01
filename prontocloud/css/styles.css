@@ -12,23 +12,21 @@ body {
 
 .main-container {
 
-    max-width: 1196px;
     display: block;
     width: 100%;
     margin: 0 auto;
     padding: 20px;
     background: #fff;
+    overflow: hidden;
 }
 
 .container {
     display: block;
-    float: left;
     padding: 0;
-    max-width: 98%;
     width: 98%;
-    margin: 0 1%;
+    margin: 0 auto;
     max-width: 1198px;
-    
+        
 }
 
 header {
@@ -44,6 +42,7 @@ h1 {
     font-size: 2.4rem;
     color: #254159;
     margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 h2 {
@@ -82,15 +81,19 @@ img {
     width: 100%;
 }
 
-#tenho-interesse form,
 .cognito.c-med .c-forms-form,
 .cognito.c-med .c-forms-form div {
     background-color: #b8c8d6 !important;
+    
+
 }
 
 #tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
 #tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
     color: #385874;
+    padding:1px 1px 1px 1px  ;
+    
+
 }
 
 ol {
@@ -145,14 +148,18 @@ section article {
 footer {
     background-color: #254159;  
     display: block;
-    float: left;
+    float: center;
     padding: 20px 0;
     width: 100%;
+    text-align: center;
 }
 
 footer p {
     color: #ffffff;
     font-size: 1.4rem;
+    float: center;
+    width: 100%;
+    text-align: center;
 }
 
 footer small {
@@ -183,24 +190,22 @@ footer small {
     background-position: center;
     background-size: cover;
     width: 100vw;
-    height: 60vh;
+    height: 100vh;
     
 }
 
 .legenda-container{
     width: 30vw;
     float: right;
-    margin-top: 10vh 10vh;
-    margin-bottom: 2rem;
-    
+    margin: 40px 0 0 0;
     
 }
 
 .legenda {
-    background-color: 255,255,255 .6;
+    background-color: (255,255,255 .6 );
     padding: 20px;
     border-radius: 5px;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 .legenda h4,
 .legenda h5 {
@@ -211,8 +216,7 @@ footer small {
 
 .button-cta {
     border-radius: 25px ;
-    display: inline;
-    display: block;
+    display: inline-block;
     background-color: orangered;
     color: #fff;
     font-size: 1.8rem;
@@ -222,6 +226,7 @@ footer small {
     width: auto;
     text-decoration: none;
     font-weight: 300;
+    margin: 20px auto;
 
 }
 
@@ -237,19 +242,19 @@ footer small {
     float: left ;
     padding: 20px;
 
-
 }
 
 .dl {
     margin: 20px 0;
 
-
 }
 
 .dt {
     font-family: 'Open Sans';
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1.6rem;
+    color: #254159;
+    margin-bottom: 5px;
 
 }
 
@@ -257,4 +262,9 @@ footer small {
     margin-left: 20px;
     margin-bottom: 20px;
     font-size: 1.4rem;
+}
+#perguntas-frequentes {
+    background-color: #b8c8d6;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
