@@ -1,4 +1,0 @@
-#DOM
-
-- Document Object Model
--
