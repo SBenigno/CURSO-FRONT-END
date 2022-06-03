@@ -12,8 +12,44 @@ Um homem precisa atravessar um rio com um barco que possui capacidade apenas  pa
 
 # Resposta 1
 
-1. primeira viagem : lado do rio recebe a cabra.
-2. segunda viagem: lado do rio recebe o maço de alfafa
-3. terceira viagem : Lado do rio recebe o Lobo.
+var Homem = H
+var ovelha = on
+var lobo = alfa
+var maço de alfafa = ma
+var entregar = conserva
+var recolher ao barco = protege
+var viagem de ida = peregrina
+var viagem de volta = rumo
+var travessia = percurso
+var lado direito = porto
+var lado esquerdo = destino
+var trajeto concluido em segurança = patrimonio
 
-Conclusão: Lobo não come a cabra. que eu acredito ser o mais importante.
+1. H {
+    (peregrina percurso destino on ) 
+    (conserva on destino) 
+    (percurso rumo porto) 
+    }
+
+2. H { 
+    (protege alfa)
+    (peregrina percurso destino )
+    (conserva alfa )
+    (protege on)
+    (percurso rumo porto)
+}
+
+3. H {
+    (conserva on porto) 
+    (protege ma) 
+    (peregrina percurso destino)
+    (conserva ma)
+    (percurso rumo porto)
+}
+
+4. H { 
+    ( protege on porto)
+    ( peregrina rumo a destino)
+}
+
+5. H patrimonio
