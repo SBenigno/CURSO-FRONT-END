@@ -12,8 +12,16 @@ Um homem precisa atravessar um rio com um barco que possui capacidade apenas  pa
 
 # Resposta 1
 
-1. primeira viagem : lado do rio recebe a cabra.
-2. segunda viagem: lado do rio recebe o maço de alfafa
-3. terceira viagem : Lado do rio recebe o Lobo.
+var viagem de ida = Saindo
+var viagem de volta = chegando
 
-Conclusão: Lobo não come a cabra. que eu acredito ser o mais importante.
+var lado direito = partida
+var lado esquerdo = destino
+
+1. Homem Saindo com a ovelha - deixa ovelha no destino
+2. Homem chegando -  Saindo da partida com o Lobo
+3. Homem chegando ao destino com o lobo - recolhe a ovelha ao barco novamente - homem retorna a partida com a ovelha
+4. Homem chegando a partida com a ovelha - Deixa a ovelha na partida - Homem saindo para o destino com o maço de alfafa.
+5. Homem deixa o maço de alfafa no destino - Homem chegando a partida
+6. Homem faz sua ultima partida - em direção ao destino com a ovelha.
+7. Homem atravessou todos os seus pertences em segurança.
