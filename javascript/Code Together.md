@@ -12,16 +12,44 @@ Um homem precisa atravessar um rio com um barco que possui capacidade apenas  pa
 
 # Resposta 1
 
-var viagem de ida = Saindo
-var viagem de volta = chegando
-
-var lado direito = partida
+var Homem = H
+var ovelha = on
+var lobo = alfa
+var maço de alfafa = ma
+var entregar = conserva
+var recolher ao barco = protege
+var viagem de ida = peregrina
+var viagem de volta = rumo
+var travessia = percurso
+var lado direito = porto
 var lado esquerdo = destino
+var trajeto concluido em segurança = patrimonio
 
-1. Homem Saindo com a ovelha - deixa ovelha no destino
-2. Homem chegando -  Saindo da partida com o Lobo
-3. Homem chegando ao destino com o lobo - recolhe a ovelha ao barco novamente - homem retorna a partida com a ovelha
-4. Homem chegando a partida com a ovelha - Deixa a ovelha na partida - Homem saindo para o destino com o maço de alfafa.
-5. Homem deixa o maço de alfafa no destino - Homem chegando a partida
-6. Homem faz sua ultima partida - em direção ao destino com a ovelha.
-7. Homem atravessou todos os seus pertences em segurança.
+1. H {
+    (peregrina percurso destino on ) 
+    (conserva on destino) 
+    (percurso rumo porto) 
+    }
+
+2. H { 
+    (protege alfa)
+    (peregrina percurso destino )
+    (conserva alfa )
+    (protege on)
+    (percurso rumo porto)
+}
+
+3. H {
+    (conserva on porto) 
+    (protege ma) 
+    (peregrina percurso destino)
+    (conserva ma)
+    (percurso rumo porto)
+}
+
+4. H { 
+    ( protege on porto)
+    ( peregrina rumo a destino)
+}
+
+5. H patrimonio
