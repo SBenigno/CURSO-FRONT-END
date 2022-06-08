@@ -113,7 +113,7 @@ function validaCampoNumerico (elemento) {
 function validaEmail(elemento) {
     elemento.addEventListener('focusout', function(event) {
         event.preventDefault(  );
-        const emailValido = /^[a-z0-9]+@[a-z0-9]+\.[a-z]+(\.[a-z]+)?/i;
+        const emailValido = /^[a-z0-9]+@[a-z0-9]+\.[a-z]+(\.[a-z]+)?$/i;
         if(this.value.match(emailValido ) ) {
             document.querySelector('.mensagem').innerHTML ="   ";
             this.classList.remove('erro');
