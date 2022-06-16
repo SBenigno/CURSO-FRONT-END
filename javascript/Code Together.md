@@ -26,30 +26,40 @@ var lado esquerdo = destino
 var trajeto concluido em segurança = patrimonio
 
 1. H {
-    (peregrina percurso destino on ) 
-    (conserva on destino) 
-    (percurso rumo porto) 
+    (peregrina percurso destino on )
+    (conserva on destino) [" primeira viagem so com a ovelha"]
+    (percurso rumo porto)
     }
 
-2. H { 
+2. H {
     (protege alfa)
-    (peregrina percurso destino )
-    (conserva alfa )
+    (peregrina percurso destino )  ["segunda viagem so com o lobo"]
+    (conserva alfa )     [ "aqui ele deixa o o lobo e retona com a ovelha" ]
     (protege on)
     (percurso rumo porto)
 }
 
 3. H {
-    (conserva on porto) 
-    (protege ma) 
+    (conserva on porto)
+    (protege ma)   [ "aqui ele deixa a ovelha no ponto de partida, e leva so a alfafa"]
     (peregrina percurso destino)
     (conserva ma)
     (percurso rumo porto)
 }
 
-4. H { 
-    ( protege on porto)
+4. H {
+    ( protege on porto) ["aqui ele faz a ultima viagem so com a ovelha"]
     ( peregrina rumo a destino)
 }
 
-5. H patrimonio
+5. H patrimonio ( homem conseguiu atravessar todos os seus peretences em segurança)
+
+### Descrição
+
+1. Homem atravessa o Rio com a ovelha
+2. Homem deixa ovelha do outro lado do Rio
+3. Homem Retorna a a margem e Atravesa o Rio com o lobo
+4. Homem deixa o lobo do outro lado do rio, pega novamente a ovelha, homem retorna a margem com a ovelha
+5. Homem retorna a margem, deixa a ovelha e pega a Alfafa para Atravessar o rio.
+6. Homem deixa alfafa do outro lado do rio, junto com o lobo
+7. Homem retorna a margem, pega sua ovelha, atravessa para o outro lado do rio, e assim, mantem todos os seus pertences em segurança.

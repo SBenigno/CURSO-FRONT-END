@@ -10,7 +10,10 @@
     <link href=" ./bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./style/custom.css">
 
-
+    
+    <!--load all Font Awesome styles -->
+    <link href="./libs/fontawesome-free-6.1.1-web" rel="stylesheet">
+    
     <title>Document</title>
 </head>
 
@@ -28,14 +31,68 @@
                         <li class="nav-item"><a class="nav-link" href=" #sobre ">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href=" #produtos ">Produtos</a></li>
                         <li class="nav-item"><a class="nav-link" href=" #contato ">Contato</a></li>
-
                     </ul>
-
-
                 </div>
             </div>
         </div>
     </header>
+
+    <div class="container">
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="ratio ratio-16x9">
+                        <img src="./imagem/hair.jpg" class="d-block w-100" alt="imagem1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Seu Cabelo..</h5>
+                            <p>...é a coroa que vc nunca tira, deixe seu cabelo falar.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="ratio ratio-16x9">
+                        <img src="./imagem/make.jpg" class="d-block w-100" alt="imagem2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Maquiar...</h5>
+                            <p>... é dar vida a arte.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="ratio ratio-16x9">
+                        <img src="./imagem/nail.jpg" class="d-block w-100" alt="imagem3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Fazer as unhas... </h5>
+                            <p>...é a receita para alivio imediato do estresse.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previus</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="bg-dark clearfix bg-gradient">
+            <div class="text-primary text-opacity-50">
+                <a name="" id="" class="btn btn-dark float-end" href="#" role="button">Button</a>
+            </div>
+        </div>
+    </div>
+
+    <i class="fa-brands fa-instagram-square link-danger fa-2x" aria-hidden="true"></i>
+    <i class="fa fa-car fa-2x " aria-hidden="true"></i>
 
     <section id="sobre">
         <div class="container">
@@ -79,9 +136,9 @@
                         <img src="./imagem/pexels-cottonbro-3993462.jpg" alt="" class="img-fluid">
                         <div class="card-body">
                             <h5 class="card-title">Cortes em Geral</h5>
-                            <p class="card-text">Cabelo cresce, então para que se prender em um visual só, 
-                            se você pode ter todos durante a vida. Cortar o cabelo e assumir um novo visual
-                            muda uma pessoa!</p>
+                            <p class="card-text">Cabelo cresce, então para que se prender em um visual só,
+                                se você pode ter todos durante a vida. Cortar o cabelo e assumir um novo visual
+                                muda uma pessoa!</p>
                             <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver Serviço</a>
                         </div>
                     </div>
@@ -132,7 +189,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Designer de mechas</h5>
                             <p class="card-text">Sonhando com um loiro lindo e bem cuidado? É possível!
-                                O loiro é perfeito para iluminar o rosto e trazer um visual moderno pros fios. 
+                                O loiro é perfeito para iluminar o rosto e trazer um visual moderno pros fios.
                                 Venha já se tornar uma loira diva! </p>
                             <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">Ver Produto</a>
                         </div>
@@ -184,7 +241,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Coloração</h5>
                             <p class="card-text">Possuir cabelos coloridos é um verdadeiro grito de liberdade
-                                e de autenticidade. Colorir os cabelos é a forma mais pura de expressar toda 
+                                e de autenticidade. Colorir os cabelos é a forma mais pura de expressar toda
                                 beleza que existe.
                             </p>
                             <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">Ver Produto</a>
@@ -256,7 +313,7 @@
 
                         <div class="input-group">
                             <textarea class="form-control" type="text" name=" " id=" " rows="5">
-                            </textarea>
+                                                    </textarea>
 
                             <button type="submit" class="btn btn-lg btn-success">Solicitar cotação
                         </div>
@@ -266,7 +323,17 @@
             </div>
     </section>
 
+    
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+
+        const myCarouselElement = document.querySelector('#carouselExampleFade')
+        const carousel = new bootstrap.Carousel(myCarouselElement, {
+            interval: 4000,
+            wrap: false
+        })
+    </script>
+
 </body>
 
 </html>
