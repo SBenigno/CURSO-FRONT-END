@@ -74,3 +74,21 @@
 .botao:visited {...} //
 
 </style>
+
+## Componentes
+
+- Blocos / Modelos / Templates reutilizaveis
+https://getbootstrap.com/docs/5.1/components
+
+## Helperes
+
+- Funções basicas
+- Incrementos
+- Ajustes
+https://getbootstrap.com/docs/5.1/helpers
+
+## Exercicio
+
+- incluir carousel na home antes de sobre
+- completar o cadastro, tornando os campos obrigatorios
+- incluir campos: bairro, complemento e telefone 
