@@ -54,3 +54,11 @@ Kit de ferramentas de automoção de tarefas baseada em JavaScript
 - Otimização de arquivos
 - Mesclagem e minificação de CSS e JS
 - Diminuição do tamamnho (bytes) de imagens
+
+## Rodar o projeto
+
+- Executar o comando:
+
+...
+npm install
+...
