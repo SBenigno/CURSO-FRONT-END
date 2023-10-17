@@ -4,26 +4,29 @@ html {
 }
 
 body {
-    background-color: #f5f5f5; 
+    background-color: #f5f5f5;
+    font-size: 62.5%; 
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Noto Serif', serif;;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Roboto Condensed', sans-serif;
 
 }
 
 .main-container {
-
+    
+    max-width: 1198px;
     display: block;
     width: 100%;
     margin: 0 auto;
     padding: 20px;
-    background: #fff;
     overflow: hidden;
 }
 
 .container {
+
     display: block;
-    padding: 0;
-    width: 98%;
+    padding: 20px;
+    width: 100%;
     margin: 0 auto;
     max-width: 1198px;
         
@@ -67,7 +70,7 @@ h4 {
 
 p {
     margin-bottom: 10px;
-    line-height: 1.4;
+    line-height: 1.4; 
     color: #333;
 }
 
@@ -112,17 +115,18 @@ section {
     font-size: 1.5rem; /* equivalente a 15px */ 
     padding: 20px 0;
     width: 100%;
+
 }
 
 section nav {
     display: block;
     float: left;
-    width: 30%;
+    width: 20%;
 }
 
 nav li {
     background-color: #efefef;
-    margin: 1px 20px 1px 0;
+    margin: 5px 20px 5px 0;
     padding: 10px;
 }
 
@@ -142,11 +146,12 @@ nav a:hover {
 section article {
     display: block;
     float: left;
-    width: 70%;
+    width: 80%;
 }
 
 footer {
-    background-color: #254159;  
+    background-color: #254159;
+    color: #ffffff;  
     display: block;
     float: center;
     padding: 20px 0;
