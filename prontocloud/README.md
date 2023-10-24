@@ -12,9 +12,9 @@
 - Princípios de design
 - HTML semântico
 - Design responsivo
-- Análise Heurística 
+- Análise Heurística
 - Visual Studio Code
-- Git 
+- Git
 
 ## Metodologia
 
@@ -22,10 +22,10 @@
 - Evolução contínua: dividir o projeto em pequenas partes, testes, ciclos incrementais, revisão...
 - AIDA
 
-- \\\\      Atenção      ////
--   \\\    Interesse    ///
--     \\     Desejo    //
--       \     Ação    /           call-to-action 4% - 20%
+ \\\\      Atenção      ////
+   \\\    Interesse    ///
+     \\     Desejo    //
+       \     Ação    /           call-to-action 4% - 20%
 
             LEAD (e-mail)
 
@@ -51,10 +51,17 @@ Fluxo completo
 Objetivo: Capturar o maximo de leads possiveis
 
 1. Criar Leading Page
+
 2. Criar Newsletter
-3. Publicar projeto em um servidor web: <https://app.infinityfree.net
-4. Criar URL amigavel para compartilhamento: <https://app.bitly.com
+
+3. Publicar projeto em um servidor web: <https://app.infinityfree.net>
+
+4. Criar URL amigavel para compartilhamento: <https://app.bitly.com>
+
 5. Convidar pessoas nas redes sociais para sua Landing page (pagina de destino/ pouso)
-6. Enviar Newslwtter para lista de contatos com link para a pagina post: <https://putsmail.com
-7. Comitar codigo em seu repositorio do Gitshub
+
+6. Enviar Newslwtter para lista de contatos com link para a pagina post: <https://putsmail.com>
+
+7. Comitar codigo em seu repositorio do github.
+
 8. Enviar link para avaliação na plataforma da EBAC
